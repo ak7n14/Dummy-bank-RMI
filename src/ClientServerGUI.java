@@ -1,3 +1,8 @@
+/*
+ * Author Anish Katariya
+ * Class to Define a gui for the client side application
+ */
+
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -53,7 +58,7 @@ public class ClientServerGUI {
        	window.setMaximumSize(new Dimension(300,100));
 
 	}
-	
+	//Set value of account label
 	public void setAmount(float amt){
 		amount.setText(Float.toString(amt));
 	}

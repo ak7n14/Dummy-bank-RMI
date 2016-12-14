@@ -1,3 +1,8 @@
+/*
+ * Author Anish Katariya
+ * 
+ * Defines the simple gui for the server
+ */
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -38,7 +43,7 @@ public class BankServerGUI{
 		label.setText(text);
 	}
 }
-
+//Defined listener for closing window
 class CloseListener implements ActionListener{
 
 	@Override
