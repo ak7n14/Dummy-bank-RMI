@@ -24,4 +24,7 @@ public class Notification implements java.io.Serializable {
 		return amount;
 	}
 	
+	Boolean sendNotification(){
+		return true;
+	}
 }
